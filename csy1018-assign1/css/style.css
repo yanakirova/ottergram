@@ -1,0 +1,44 @@
+/*Here are styles only for index.hmtl */
+header{
+  font-family: 'Tangerine', serif;
+  font-size: 0em;
+  line-height: 0.85;
+text-align: center;
+}
+
+b {
+    font-size: 110px;
+}
+i{
+  font-size: 42px;
+}
+
+div.relative{
+  position:absolute;
+  top: 250px;
+  left: 200px;
+}
+
+div.relative1{
+  position:absolute;
+  top: 250px;
+  right:200px;
+}
+/*that positioning is not my idea
+http://www.htmlgoodies.com/beyond/css/article.php/3470391 that
+ */
+
+
+img { /*style only for image in header */
+  border-radius: 50%; /*to make circle image */
+  border: 2.5px solid black;
+  width:150px;
+  heigh:150px;
+  }
+
+  img.link { /*styles for images that are link to other part of the website */
+    border-radius: 50%;
+    border: 2.5px solid black;
+    width:300px;
+    heigh:300px;
+    }
